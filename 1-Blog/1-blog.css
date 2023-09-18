@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+p {
+    color: #FFFFFF;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.logo+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.headMenu {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+input[type="text"] {
+    background-color: #1F293799;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+#Frontend {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.job {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.theoryColor {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.universalAnswer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
