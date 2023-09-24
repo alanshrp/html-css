@@ -4,36 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../1-Blog/1-blog.css">
     <title>1-Blog</title>
 </head>
 
 <body>
     <header>
+        <a>
+            <p class="logo">
+                В
+            </p>
+            <p>
+                Мой блог
+            </p>
+        </a>
         <nav>
             <ul>
-                <li><a href="">Мой блог</a></li>
-                <li><a href="">HTML и CSS</a></li>
-                <li><a href="">Backend</a></li>
+                <li><a href="" class="headMenu">HTML и CSS</a></li>
+                <li><a href="" class="headMenu">Frontend</a></li>
+                <li><a href="" class="headMenu">Backend</a></li>
             </ul>
-            Поиск
+            <input type="text" name="text" id="text" placeholder="Поиск">
         </nav>
     </header>
-    <hr>
-    <section>
-        <p>
-            FRONTEND &bull; 12 мая 2024
-        </p>
-    </section>
-    <section>
-        <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
-        <img src="c:\Users\RT\Downloads\Ellipse 1.png" alt="woman">
-        <p>Наталья Васильевна</p>
-        <p>Разработчик</p>
-        <img src="c:\Users\RT\Downloads\Rectangle 181.png" alt="IMac">
-    </section>
     <main>
         <section>
-            <p>Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета и
+            <p class="frontend">
+                FRONTEND &bull; 12 мая 2024
+            </p>
+        </section>
+        <section>
+            <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
+            <img src="./images/Ellipse 1.png" alt="Developer's photo">
+            <p class="name">Наталья Васильевна</p>
+            <p class="job">Разработчик</p>
+        </section>
+        <section>
+            <div>
+                <img src="./images/Rectangle 181.png" alt="IMac" id="Imac">
+            </div>
+            <p class="text">Теория цвета — это особенности эмоционального восприятия человеком тех или иных
+                цветовых
+                решений. Цвета и
                 различные их
                 комбинации влияют на психику человека, а значит, во многом определяют его поведение. Маркетологи и
                 веб-дизайнеры
@@ -43,19 +55,18 @@
                 сформировать
                 положительное отношение к продукту, подтолкнуть посетителей к совершению целевых действий, повысить
                 конверсию.
+
             </p>
-        </section>
-        <section>
-            <p>Универсального ответа на вопрос, как тот или иной цвет влияет на разных людей, нет. Эмоциональная и
+            <p class="text1">Универсального ответа на вопрос, как тот или иной цвет влияет на разных людей,
+                нет.
+                Эмоциональная и
                 поведенческая
                 реакция каждого человека зависит от личного опыта. Вместе с тем можно выделить определенные
                 закономерности
                 влияния
                 цветов на поведение пользователей.
             </p>
-        </section>
-        <section>
-            <p>
+            <p class="text2">
                 В исследовании «Влияние цвета на маркетинг» (Impact of color on marketing) говорится, что использование
                 разных
                 цветов
@@ -67,11 +78,8 @@
             </p>
         </section>
     </main>
-    <hr>
     <footer>
-        <div>
-            <p>Все права защищены (c) 2024</p>
-        </div>
+        <p>Все права защищены (c) 2024</p>
     </footer>
 </body>
 

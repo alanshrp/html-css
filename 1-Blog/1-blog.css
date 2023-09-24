@@ -1,0 +1,139 @@
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    margin: 0;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin: 0 0 30px 0;
+}
+
+input[type="text"] {
+    background-color: #1F293799;
+    color: #FFFFFF;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0 77px 0;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    width: 11px;
+    height: 23px;
+    background-color: #4B5563;
+    margin: 72px 0 0 0;
+    border-radius: 3px;
+    padding: 6px 12px;
+}
+
+.logo+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.headMenu {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+.frontend {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0 0 14px 0;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 148px;
+    height: 28px;
+    margin: 0;
+}
+
+.job {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+    width: 85px;
+    height: 28px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 708px;
+    height: 225px;
+    margin: 0 0 50px 0;
+}
+
+.text1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 708px;
+    height: 90px;
+    margin: 0 0 50px 0;
+}
+
+.text2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 708px;
+    height: 125px;
+    margin: 0 0 103px 0;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+#text {
+    margin: 0 0 69px 0;
+    width: 47px;
+    height: 19px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    border: none;
+    padding: 9px 128px 12px 49px;
+}
+
+#Imac {
+    margin: 0 0 69px 0;
+}
