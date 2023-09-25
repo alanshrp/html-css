@@ -7,7 +7,6 @@ main {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 36px;
     color: #333333;
@@ -15,22 +14,27 @@ h1 {
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #666666;
     line-height: 24.51px;
 }
 
+button {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FFFFFF;
+    background-color: #089FE0;
+}
+
 #firstlink {
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
 }
 
 #text {
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 22px;
@@ -38,7 +42,6 @@ h2 {
 }
 
 #name {
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -48,7 +51,6 @@ h2 {
 }
 
 #surname {
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -58,7 +60,6 @@ h2 {
 }
 
 #email {
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -67,17 +68,7 @@ h2 {
     background: #F5F5F5;
 }
 
-button {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    color: #FFFFFF;
-    background-color: #089FE0;
-}
-
-#accept {
-    font-family: 'Open Sans', sans-serif;
+#checkbox {
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
@@ -85,7 +76,6 @@ button {
 }
 
 #secondlink {
-    font-family: Open Sans;
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
