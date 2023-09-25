@@ -28,20 +28,14 @@ button {
     background-color: #089FE0;
 }
 
-#firstlink {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-}
-
-#text {
+.text {
     font-size: 16px;
     font-weight: 600;
     line-height: 22px;
     color: #333333;
 }
 
-#name {
+.name {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -50,7 +44,7 @@ button {
     background: #F5F5F5;
 }
 
-#surname {
+.surname {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -59,7 +53,7 @@ button {
     background: #F5F5F5;
 }
 
-#email {
+.email {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -68,11 +62,17 @@ button {
     background: #F5F5F5;
 }
 
-#checkbox {
+.checkbox {
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
     color: #666666;
+}
+
+#firstlink {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
 }
 
 #secondlink {
