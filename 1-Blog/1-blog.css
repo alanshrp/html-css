@@ -1,12 +1,39 @@
 body {
     background: linear-gradient(180deg, #374151 0%, #111827 100%);
-    margin: 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 180px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    gap: 77px;
+    align-items: center;
+    margin-bottom: 73px;
+    justify-content: center;
+}
+
+header a {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    align-items: baseline;
 }
 
 nav ul {
     text-decoration: none;
     list-style: none;
     padding-left: 0;
+    display: flex;
+    margin: 72px 0 0 0;
+}
+
+nav {
+    display: flex;
+    gap: 346px;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 p {
@@ -19,6 +46,10 @@ h1 {
     line-height: 38px;
     color: #FFFFFF;
     margin: 0 0 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 input[type="text"] {
@@ -30,7 +61,19 @@ footer p {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    margin: 0 0 77px 0;
+    margin-bottom: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -43,6 +86,21 @@ footer p {
     margin: 72px 0 0 0;
     border-radius: 3px;
     padding: 6px 12px;
+    box-shadow: 0px 15px 30px 0px #00000026;
+}
+
+.headMenu1 {
+    margin-right: 52px;
+    width: 90px;
+}
+
+.headMenu2 {
+    margin-right: 39px;
+    width: 64px;
+}
+
+.headMenu3 {
+    width: 62px;
 }
 
 .logo+p {
@@ -51,30 +109,39 @@ footer p {
     line-height: 21px;
     color: #FFFFFF;
     text-decoration: none;
+    width: 80px;
+    margin-bottom: 6px;
 }
 
-.headMenu {
+.headMenu a {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none;
     list-style: none;
-    padding-left: 0;
+}
+
+.frontend p {
+    margin: 0;
 }
 
 .frontend {
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
-    margin: 0 0 14px 0;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
 }
 
 .name {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    width: 148px;
+    width: 158px;
     height: 28px;
     margin: 0;
 }
@@ -93,8 +160,9 @@ footer p {
     font-weight: 400;
     line-height: 32px;
     width: 708px;
-    height: 225px;
-    margin: 0 0 50px 0;
+    height: 248px;
+    display: flex;
+    margin: 0;
 }
 
 .text1 {
@@ -102,8 +170,8 @@ footer p {
     font-weight: 400;
     line-height: 30px;
     width: 708px;
-    height: 90px;
-    margin: 0 0 50px 0;
+    height: 114px;
+    margin: 0;
 }
 
 .text2 {
@@ -111,8 +179,16 @@ footer p {
     font-weight: 400;
     line-height: 30px;
     width: 708px;
-    height: 125px;
-    margin: 0 0 103px 0;
+    height: 143px;
+    margin: 0 0 100px 0;
+}
+
+.developer {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 28px;
 }
 
 ::placeholder {
@@ -123,7 +199,6 @@ footer p {
 }
 
 #text {
-    margin: 0 0 69px 0;
     width: 47px;
     height: 19px;
     border-radius: 100px;
@@ -132,8 +207,11 @@ footer p {
     line-height: 19px;
     border: none;
     padding: 9px 128px 12px 49px;
+    background-image: url(../1-Blog/images/search.png);
+    background-position: top 14px left 12px;
+    background-repeat: no-repeat;
 }
 
 #Imac {
-    margin: 0 0 69px 0;
+    margin-bottom: 69px;
 }
