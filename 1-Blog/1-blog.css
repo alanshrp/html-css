@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(180deg, #374151 0%, #111827 100%);
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 180px;
     font-family: 'Roboto', sans-serif;
@@ -12,6 +12,7 @@ header {
     align-items: center;
     margin-bottom: 73px;
     justify-content: center;
+    max-width: 1440px;
 }
 
 header a {
@@ -40,6 +41,10 @@ p {
     color: #FFFFFF;
 }
 
+section {
+    max-width: 1440px;
+}
+
 h1 {
     font-size: 24px;
     font-weight: 400;
@@ -66,6 +71,7 @@ footer p {
     justify-content: center;
     align-items: center;
     margin-top: 0;
+    max-width: 1440px;
 }
 
 .mainContent {
@@ -163,9 +169,10 @@ footer p {
     height: 248px;
     display: flex;
     margin: 0;
+    max-width: 1440px;
 }
 
-.text1 {
+.text2 {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
@@ -174,7 +181,7 @@ footer p {
     margin: 0;
 }
 
-.text2 {
+.text3 {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
