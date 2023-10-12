@@ -1,11 +1,11 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    max-width: 100%;
 }
 
 nav {
     padding: 33px 50px;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -68,6 +68,7 @@ footer p {
 header {
     border-bottom: 1px solid #F0F0F0;
     margin-bottom: 65px;
+    max-width: 1200px;
 }
 
 footer {
