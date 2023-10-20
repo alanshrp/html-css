@@ -1,23 +1,24 @@
 body {
     background: linear-gradient(180deg, #374151 0%, #111827 100%);
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
     padding: 0 180px;
     font-family: 'Roboto', sans-serif;
 }
 
 header {
-    display: flex;
-    gap: 77px;
-    align-items: center;
-    margin-bottom: 73px;
-    justify-content: center;
     max-width: 1440px;
+    display: flex;
+    gap: 346px;
+    align-items: center;
+    margin: 72px 0 70px 0;
+    justify-content: center;
 }
 
 header a {
+    text-decoration: none;
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
     gap: 11px;
     align-items: baseline;
 }
@@ -27,23 +28,14 @@ nav ul {
     list-style: none;
     padding-left: 0;
     display: flex;
-    margin: 72px 0 0 0;
+    gap: 45px;
 }
 
-nav {
-    display: flex;
-    gap: 346px;
-    justify-content: center;
-    align-items: flex-end;
-}
 
 p {
     color: #FFFFFF;
 }
 
-section {
-    max-width: 1440px;
-}
 
 h1 {
     font-size: 24px;
@@ -51,9 +43,6 @@ h1 {
     line-height: 38px;
     color: #FFFFFF;
     margin: 0 0 30px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
@@ -62,24 +51,15 @@ input[type="text"] {
     color: #FFFFFF;
 }
 
-footer p {
+footer {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    margin-bottom: 77px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 0;
     max-width: 1440px;
-}
-
-.mainContent {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 77px;
 }
 
 .logo {
@@ -89,24 +69,9 @@ footer p {
     width: 11px;
     height: 23px;
     background-color: #4B5563;
-    margin: 72px 0 0 0;
     border-radius: 3px;
     padding: 6px 12px;
     box-shadow: 0px 15px 30px 0px #00000026;
-}
-
-.headMenu1 {
-    margin-right: 52px;
-    width: 90px;
-}
-
-.headMenu2 {
-    margin-right: 39px;
-    width: 64px;
-}
-
-.headMenu3 {
-    width: 62px;
 }
 
 .logo+p {
@@ -116,10 +81,15 @@ footer p {
     color: #FFFFFF;
     text-decoration: none;
     width: 80px;
-    margin-bottom: 6px;
 }
 
-.headMenu a {
+.menu {
+    display: flex;
+    gap: 77px;
+    align-items: center;
+}
+
+.menu_item a {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -128,8 +98,20 @@ footer p {
     list-style: none;
 }
 
+.title {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-direction: column;
+    align-items: center;
+}
+
 .frontend p {
     margin: 0;
+    display: flex;
+    max-width: 1440px;
+    gap: 12px;
 }
 
 .frontend {
@@ -137,10 +119,13 @@ footer p {
     font-weight: 400;
     line-height: 16px;
     margin-bottom: 14px;
+}
+
+.developer {
     display: flex;
-    gap: 12px;
+    gap: 16px;
+    max-width: 1440px;
     justify-content: center;
-    align-items: center;
 }
 
 .name {
@@ -156,20 +141,35 @@ footer p {
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
-    margin: 0;
+    margin: 0 0 28px 0;
     width: 85px;
     height: 28px;
 }
 
+.mainContent {
+    display: flex;
+    max-width: 1440px;
+    flex-direction: column;
+    gap: 69px;
+    align-items: center;
+}
+
 .text {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 1440px;
+}
+
+.text1 {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     width: 708px;
     height: 248px;
-    display: flex;
     margin: 0;
-    max-width: 1440px;
 }
 
 .text2 {
@@ -188,14 +188,6 @@ footer p {
     width: 708px;
     height: 143px;
     margin: 0 0 100px 0;
-}
-
-.developer {
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 28px;
 }
 
 ::placeholder {
@@ -217,8 +209,4 @@ footer p {
     background-image: url(../1-Blog/images/search.png);
     background-position: top 14px left 12px;
     background-repeat: no-repeat;
-}
-
-#Imac {
-    margin-bottom: 69px;
 }
