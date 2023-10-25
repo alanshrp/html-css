@@ -1,16 +1,32 @@
 body {
-    background: #F39494;
+    margin: 0;
+    background: linear-gradient(0deg, #F39494, #F39494),
+        linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%),
+        linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%);
 }
 
 main {
     background-color: #FFFEFE;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 582px;
+    height: 573px;
+    box-sizing: border-box;
+    margin: 225px auto;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     font-weight: 700;
     font-size: 36px;
     color: #333333;
-    line-height: 49.03px;
+    line-height: 49px;
+    max-width: 383px;
+    text-align: center;
+    margin: 72px auto;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -18,14 +34,44 @@ h2 {
     font-size: 18px;
     color: #666666;
     line-height: 24.51px;
+    max-width: 166px;
+    height: 26px;
+    text-align: center;
+    margin: 0;
 }
 
 button {
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
+    text-align: center;
+    padding: 9px 102px;
     color: #FFFFFF;
-    background-color: #089FE0;
+    background: #089FE0;
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+    max-width: 394px;
+    height: 44px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    row-gap: 22px;
+    column-gap: 1px;
+    font-size: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 47px;
 }
 
 .text {
@@ -33,6 +79,11 @@ button {
     font-weight: 600;
     line-height: 22px;
     color: #333333;
+    padding: 9px 150px 9px 11px;
+    width: 233px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #F5F5F5;
 }
 
 .name {
@@ -42,6 +93,11 @@ button {
     line-height: 22px;
     color: #999999;
     background: #F5F5F5;
+    width: 151px;
+    height: 26px;
+    padding: 9px 35px 9px 10px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
 }
 
 .surname {
@@ -51,6 +107,11 @@ button {
     line-height: 22px;
     color: #999999;
     background: #F5F5F5;
+    width: 151px;
+    height: 26px;
+    padding: 9px 35px 9px 9px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
 }
 
 .email {
@@ -60,6 +121,11 @@ button {
     line-height: 22px;
     color: #999999;
     background: #F5F5F5;
+    width: 151px;
+    height: 26px;
+    padding: 9px 232px 9px 11px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
 }
 
 .checkbox {
@@ -67,12 +133,39 @@ button {
     font-weight: 400;
     line-height: 19px;
     color: #666666;
+    width: 160px;
+    height: 19px;
+    margin-left: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: -26px;
+    width: 371px;
+    height: 19px;
+}
+
+#checkbox {
+    width: 15px;
+    height: 16px;
+    border-radius: 5px;
+    vertical-align: top;
+    border: 1px solid #EEEEEE;
+    color: #333333;
+    margin-top: 0;
 }
 
 #firstlink {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
+    width: 65px;
+    height: 26px;
+    color: #089FE0;
+    cursor: pointer;
 }
 
 #secondlink {
@@ -80,4 +173,7 @@ button {
     font-weight: 400;
     line-height: 19px;
     color: #089FE0;
+    width: 173px;
+    height: 19px;
+    margin-left: 10px;
 }
