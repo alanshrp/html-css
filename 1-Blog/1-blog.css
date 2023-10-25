@@ -5,18 +5,16 @@ body {
 }
 
 header {
-    max-width: 1440px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
     padding: 72px 180px;
 }
 
 main {
-    margin: 0 auto;
     padding: 0 180px;
-    max-width: 1440px;
+    width: 100%;
 }
 
 header a {
@@ -61,10 +59,14 @@ footer {
     line-height: 28px;
     display: flex;
     align-items: center;
-    max-width: 1440px;
+    width: 100%;
     justify-content: center;
-    margin: 0 auto;
     padding: 0 180px;
+}
+
+.inner_container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -210,7 +212,7 @@ footer {
     line-height: 19px;
     border: none;
     padding: 9px 128px 12px 49px;
-    background-image: url(./images/search.svg);
+    background-image: url(./images/search.png);
     background-position: top 14px left 12px;
     background-repeat: no-repeat;
 }
