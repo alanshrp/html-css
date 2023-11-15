@@ -1,6 +1,12 @@
-.header {
-    max-width: var(--layout-width);
+.body {
+    max-width: 1156px;
+    width: 100%;
     margin: 0 auto;
+}
+
+.header {
+    max-width: 1156px;
+    width: 100%;
 }
 
 .header__wrapper {
@@ -12,10 +18,11 @@
 
 .section {
     max-width: var(--layout-width);
-    margin: 0 382px;
+    width: 100%;
 }
 
 .section__wrapper {
+    width: 100%;
     max-width: var(--layout-width);
     display: grid;
     grid-template-columns: repeat(3, 369px);
@@ -159,9 +166,15 @@
 }
 
 @media (max-width: 375px) {
+    .section {
+        margin: 0;
+    }
+
     .header {
+        display: flex;
         max-width: 328px;
         justify-content: center;
+        margin: 0 24px;
     }
 
     .header__wrapper {

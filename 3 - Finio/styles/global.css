@@ -1,6 +1,4 @@
 :root {
-
-
     --color-hero: #FFC736;
     --color-benefit: #1ABC9C;
     --color-text: #4E5D7C;
@@ -27,8 +25,7 @@ html {
 
 body {
     background: var(--color-bg);
-    margin: 80px 382px;
-    width: var(--layout-width);
+    width: 100%;
 }
 
 p {
