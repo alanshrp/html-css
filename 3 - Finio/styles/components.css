@@ -1,12 +1,136 @@
+/* Interface */
+
+.interface__h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: var(--color-black);
+    margin: 0;
+}
+
+.items__text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--color-secondary-text);
+}
+
+.expenses {
+    position: relative;
+    overflow: hidden;
+    z-index: auto;
+}
+
+.sum {
+    position: absolute;
+    z-index: 1;
+    bottom: 272px;
+    left: 194px;
+}
+
+/* Econom */
+
+.econom__title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: var(--color-bg);
+    margin: 0;
+}
+
+.econom__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--color-bg-80);
+    margin: 0;
+    width: 1156px;
+    text-align: center;
+}
+
+.benefits__h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: var(--color-bg);
+}
+
+/* Mobile */
+
+.data__items h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    color: var(--color-black);
+    margin: 0;
+}
+
+.data__items p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--color-secondary-text);
+}
+
+.version__top h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: var(--color-black);
+    margin: 0;
+}
+
+.version__top p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--color-secondary-text);
+}
+
+/* Support */
+
+.support__left img {
+    padding-left: 95px;
+    overflow-y: hidden;
+    position: relative;
+    top: 2px;
+}
+
+.right__top h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    margin: 0;
+    color: var(--color-bg);
+}
+
+.right__top p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--color-bg-80);
+}
+
+.middle__items p {
+    color: var(--color-bg);
+}
+
+.right__buttom p {
+    color: var(--color-bg);
+}
+
+/* Rates */
+
 button {
     width: 289px;
     height: 48px;
-    border-radius: var(--border-radius-47);
     font-size: 17px;
     font-weight: 800;
     line-height: 24px;
     color: var(--color-bg);
     background-color: var(--color-button);
+    border-radius: var(--border-radius-47);
     border: none;
     cursor: pointer;
 }
@@ -15,7 +139,7 @@ button::hover {
     background-color: blue;
 }
 
-.header__h1 {
+.rates__h1 {
     font-size: 48px;
     font-weight: 600;
     line-height: 58px;
@@ -25,7 +149,7 @@ button::hover {
     height: 58px;
 }
 
-.header__text {
+.rates__text {
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -126,4 +250,99 @@ button::hover {
     line-height: 24px;
     color: #FFFFFF99;
     ;
+}
+
+
+/* Feedback */
+
+.feedback__h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: var(--color-black);
+    margin: 0;
+    text-align: center;
+}
+
+.note__h2 h2 {
+    margin: 0;
+}
+
+.feedback__right img {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    border-radius: 0 16px 16px 0;
+    width: 578px;
+    height: 438px;
+}
+
+.note__who h3 {
+    margin: 5px 0;
+}
+
+#pointer-reverse {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 167px;
+}
+
+#pointer:hover {
+    color: var(--color-bg);
+}
+
+/* Footer */
+
+.left__h1 {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 50px;
+    color: var(--color-bg);
+    margin: 0;
+}
+
+.left__p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFFB2;
+}
+
+.footer__middle a {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF80;
+}
+
+.right__p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFFB2;
+}
+
+.buttom__left p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFFB2;
+}
+
+#visa {
+    width: 80px;
+    height: 27px;
+}
+
+#mastercard {
+    width: 48px;
+    height: 37px;
+}
+
+#mir {
+    width: 78px;
+    height: 23px;
 }

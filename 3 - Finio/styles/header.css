@@ -1,0 +1,233 @@
+.header {
+    background-color: var(--color-button);
+    max-width: var(--layout-width);
+    padding: 40px 264px 98px 150px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__items {
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+}
+
+.menu__items a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--color-bg-80);
+}
+
+.button-header {
+    width: 207px;
+    height: 48px;
+    padding: 12px 32px;
+    border-radius: var(--border-radius-34);
+    color: var(--color-button);
+    background-color: var(--color-bg);
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 24px;
+}
+
+.finaccount {
+    background-color: var(--color-button);
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.finaccount__wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.finaccount__left {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.left__top {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 17px;
+}
+
+.h1__top {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    color: var(--color-bg);
+    margin: 0;
+    width: 465px;
+}
+
+.button__top {
+    width: 345px;
+    height: 48px;
+    padding: 12px 32px;
+    border-radius: var(--border-radius-34);
+    background-color: var(--color-bg);
+    color: var(--color-button);
+}
+
+.left__button {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.companies__top {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.companies__buttom {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.finaccount__right img {
+    position: relative;
+    z-index: 1;
+}
+
+.rotated-block {
+    width: calc(100% + 200px);
+    height: 312px;
+    rotate: -7deg;
+    background-color: var(--color-bg);
+    position: absolute;
+    bottom: -130px;
+    left: -30px;
+    z-index: auto;
+}
+
+.header__whiteboard {
+    display: none;
+}
+
+@media (max-width: 375px) {
+    .header {
+        padding: 0;
+        max-width: 375px;
+    }
+
+    .header__wrapper {
+        width: 328px;
+        height: 81px;
+        margin: 0 auto;
+        border-bottom: 1px solid var(--color-bg-dark);
+        padding: 24px 0 19px;
+    }
+
+    .header__logo img {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__profile {
+        display: none;
+    }
+
+    .header__whiteboard {
+        display: block;
+    }
+
+    .finaccount__left {
+        gap: 56px;
+        height: 494px;
+    }
+
+    .finaccount__right {
+        display: none;
+    }
+
+    .left__top {
+        gap: 32px;
+        width: 375px;
+        padding: 32px 24px 0;
+    }
+
+    .h1__top {
+        font-size: 32px;
+        line-height: 38px;
+        width: 328px;
+    }
+
+    .left__button {
+        gap: 17px;
+        width: 375px;
+        padding: 0 24px;
+    }
+
+    .companies__top {
+        gap: 14px;
+    }
+
+    .companies__buttom {
+        gap: 19px;
+    }
+
+
+    .button__top {
+        width: 328px;
+        height: 48px;
+        padding: 12px 23px;
+    }
+
+    .finaccount__wrapper {
+        display: block;
+    }
+
+    .rotated-block {
+        bottom: -265px;
+    }
+
+    #wildberries {
+        width: 163px;
+        height: 19px;
+    }
+
+    #ozon {
+        width: 87px;
+        height: 20px;
+    }
+
+    #yandex {
+        width: 120px;
+        height: 29px;
+    }
+
+    #aliexpress {
+        width: 123px;
+        height: 29px;
+    }
+}
