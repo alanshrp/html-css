@@ -1,0 +1,357 @@
+/* Interface */
+
+.interface__h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: var(--color-black);
+    margin: 0;
+}
+
+.items__text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--color-secondary-text);
+}
+
+.expenses {
+    position: relative;
+    overflow: hidden;
+    z-index: auto;
+}
+
+.sum {
+    position: absolute;
+    z-index: 1;
+    bottom: 272px;
+    left: 194px;
+}
+
+/* Econom */
+
+.econom__title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: var(--color-bg);
+    margin: 0;
+}
+
+.econom__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--color-bg-80);
+    margin: 0;
+    width: 1156px;
+    text-align: center;
+}
+
+.benefits__h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: var(--color-bg);
+}
+
+/* Mobile */
+
+.data__items h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    color: var(--color-black);
+    margin: 0;
+}
+
+.data__items p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--color-secondary-text);
+}
+
+.version__top h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: var(--color-black);
+    margin: 0;
+}
+
+.version__top p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--color-secondary-text);
+}
+
+/* Support */
+
+.support__left img {
+    padding-left: 95px;
+    overflow-y: hidden;
+    position: relative;
+    top: 2px;
+}
+
+.right__top h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    margin: 0;
+    color: var(--color-bg);
+}
+
+.right__top p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--color-bg-80);
+}
+
+.middle__items p {
+    color: var(--color-bg);
+}
+
+.right__buttom p {
+    color: var(--color-bg);
+}
+
+/* Rates */
+
+button {
+    width: 289px;
+    height: 48px;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 24px;
+    color: var(--color-bg);
+    background-color: var(--color-button);
+    border-radius: var(--border-radius-47);
+    border: none;
+    cursor: pointer;
+}
+
+button::hover {
+    background-color: blue;
+}
+
+.rates__h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    text-align: center;
+    margin: 0;
+    width: 190px;
+    height: 58px;
+}
+
+.rates__text {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+    width: 800px;
+    height: 24px;
+    margin-bottom: 40px;
+    color: var(--color-secondary-text);
+}
+
+.first_item1 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    width: 126px;
+    margin: 0;
+}
+
+.first_item2 {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 289px;
+    margin: 0;
+    color: var(--color-secondary-text);
+}
+
+.button-light {
+    display: grid;
+    justify-content: center;
+}
+
+.button-dark button {
+    background-color: var(--color-bg);
+    border-radius: var(--border-radius-47);
+    color: var(--color-button);
+    display: grid;
+    align-items: center;
+}
+
+.button-dark {
+    display: grid;
+    justify-content: center;
+}
+
+.second_item1 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    background-color: var(--color-benefit);
+    width: 124px;
+    height: 29px;
+    border-radius: 8px;
+    padding: 4px 16px;
+}
+
+.second_item2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    width: 170px;
+    height: 38px;
+}
+
+.second_item3 {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 289px;
+    height: 48px;
+    color: var(--color-secondary-text);
+}
+
+.hero-price {
+    background-color: var(--color-hero);
+    color: var(--color-bg);
+    width: 108px;
+    height: 36px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-align: end;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.dark-item2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    color: var(--color-bg);
+}
+
+.dark-item3 {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF99;
+    ;
+}
+
+
+/* Feedback */
+
+.feedback__h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: var(--color-black);
+    margin: 0;
+    text-align: center;
+}
+
+.note__h2 h2 {
+    margin: 0;
+}
+
+.feedback__right img {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    border-radius: 0 16px 16px 0;
+    width: 578px;
+    height: 438px;
+}
+
+.note__who h3 {
+    margin: 5px 0;
+}
+
+#pointer {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 167px;
+    cursor: pointer;
+}
+
+#pointer-reverse {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 167px;
+
+}
+
+#pointer:hover {
+    color: var(--color-bg);
+}
+
+/* Footer */
+
+.left__h1 {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 50px;
+    color: var(--color-bg);
+    margin: 0;
+}
+
+.left__p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFFB2;
+}
+
+.footer__middle a {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF80;
+}
+
+.right__p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFFB2;
+}
+
+.buttom__left p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFFB2;
+}
+
+#visa {
+    width: 80px;
+    height: 27px;
+}
+
+#mastercard {
+    width: 48px;
+    height: 37px;
+}
+
+#mir {
+    width: 78px;
+    height: 23px;
+}
